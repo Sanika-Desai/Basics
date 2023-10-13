@@ -1,0 +1,75 @@
+Input:
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   int a, b, select;
+   int sum, sub, mul, div;
+   
+ 
+  
+  
+      cout<<"Enter 1 for addition; \nEnter 2 for subtraction; \nEnter 3 for multiplication; \nEnter 4 for division;\n";
+      cin>>select;
+      
+      
+      if(select == 1)
+      {
+         cout<<"Enter numbers for addition:\n";
+         cin>>a>>b;
+         
+         sum = a+b;
+         
+         cout<<"Your sum is: "<<sum<<endl;
+      }
+      else if(select == 2)
+      {
+         cout<<"Enter numbers for subtraction:\n";
+         cin>>a>>b;
+         
+         sub  = a-b;
+         
+         cout<<"The difference is: "<<sub<<endl;
+      }
+      else if(select == 3)
+      {
+         cout<<"Enter numbers for multiplication: \n";
+         cin>>a>>b;
+         
+         mul  = a*b;
+         
+         cout<<"The product is "<<mul<<endl;
+      }
+      else if(select == 4)
+      {
+         cout<<"Enter numbers for division:\n";
+         cin>>a>>b;
+         
+         div  = a/b;
+         
+         cout<<"The quotient is "<<div<<endl;
+      }
+      else
+      {
+          cout<<"ERROR! \nPlease select a valid number\n";
+      }
+      
+      
+  
+   
+   
+   
+}
+
+OUTPUT:
+
+Enter 1 for addition; 
+Enter 2 for subtraction; 
+Enter 3 for multiplication; 
+Enter 4 for division;
+4
+Enter numbers for division:
+45
+9
+The quotient is 5
